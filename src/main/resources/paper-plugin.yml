@@ -1,0 +1,4 @@
+name: aimless_2024
+version: '${version}'
+main: org.enteras.aimless_2024.Aimless_2024
+api-version: '1.20'
