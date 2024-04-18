@@ -18,6 +18,7 @@ import java.awt.Color
 import java.util.*
 import kotlin.random.Random.Default.nextInt
 
+@Suppress("DEPRECATION")
 class EventListener : Listener {
     @EventHandler
     fun onPlayerLogin(event: PlayerLoginEvent) {
@@ -89,7 +90,7 @@ class EventListener : Listener {
 
         event.numPlayers = c.get(Calendar.YEAR) * 10000 + (c.get(Calendar.MONTH) + 1) * 100 + c.get(Calendar.DAY_OF_MONTH)
         event.maxPlayers = c.get(Calendar.HOUR) * 10000 + c.get(Calendar.MINUTE) * 100 + c.get(Calendar.SECOND)
-        event.motd = "${ChatColor.of(Color(nextInt(0xFFFFFF)))}${ChatColor.BOLD}AIMLESS SERVER 2024"
+        event.motd = "${ChatColor.of(Color(nextInt(0xFFFFFF)))}${ChatColor.BOLD}AIMLESS SERVER 2020"
         event.playerSample.clear()
     }
 
