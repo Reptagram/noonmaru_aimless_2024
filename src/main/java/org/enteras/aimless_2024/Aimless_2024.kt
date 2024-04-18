@@ -30,6 +30,7 @@ class Aimless_2024 : JavaPlugin() {
     }
 }
 
+@Suppress("DEPRECATION")
 class Restarter: Runnable {
     private val time = System.currentTimeMillis()
 
