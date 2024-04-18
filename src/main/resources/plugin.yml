@@ -1,4 +1,7 @@
 name: aimless_2024
 version: '${version}'
+depend: [ProtocolLib]
 main: org.enteras.aimless_2024.Aimless_2024
 api-version: '1.20'
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23
