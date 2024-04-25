@@ -1,8 +1,6 @@
 package org.enteras.aimless_2024
 
-import org.bukkit.Location
-import org.bukkit.Particle
-import org.bukkit.Sound
+import org.bukkit.*
 import org.bukkit.util.Vector
 import java.util.*
 
@@ -107,15 +105,14 @@ object Emote {
             it.world.spawnParticle(
                 Particle.BLOCK_MARKER,
                 it.x,
-                it.y + 2.5,
+                it.y + 2.2,
                 it.z,
                 0,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                null,
-                true
+                Bukkit.createBlockData(Material.BARRIER),
             )
 
             it.world.playSound(it, Sound.BLOCK_ANVIL_LAND, 0.5F, 0.1F)

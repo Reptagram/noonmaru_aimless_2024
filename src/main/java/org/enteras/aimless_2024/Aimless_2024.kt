@@ -20,7 +20,7 @@ class Aimless_2024 : JavaPlugin() {
         Bukkit.getWorlds().first().apply {
             val border = worldBorder
             border.center = Location(this, 0.0, 0.0, 0.0)
-            border.size = 16384.0
+            border.size = 20000.0
             spawnLocation = getHighestBlockAt(0, 0).location
         }
 
