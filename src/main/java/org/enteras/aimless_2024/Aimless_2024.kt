@@ -8,7 +8,7 @@ import java.util.*
 
 class Aimless_2024 : JavaPlugin() {
     override fun onEnable() {
-        getLogger().info("WELCOME TO AIMLESS 2024! \nOriginal Plugin by @gakstar, 2024 Version by @RedaL_moon")
+        getLogger().info("WELCOME TO AIMLESS 2024! \nOriginal Plugin by @kakstar, 2024 Version by @RedaL_moon")
         for (world in Bukkit.getWorlds()) {
             world.setGameRule(GameRule.ANNOUNCE_ADVANCEMENTS, false)
             world.setGameRule(GameRule.SHOW_DEATH_MESSAGES, true)
