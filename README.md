@@ -8,4 +8,6 @@ MC Version 1.20 Based<br/>
 
 Original Plugin by noonmaru: https://github.com/noonmaru/aimless<br/>
 
-**Req ProtocolLib**
+**Req ProtocolLib**<br/>
+<br/>
+_Made by 레달(@Reptagram), 星空麗成(@HoshizoraRenaru)_
